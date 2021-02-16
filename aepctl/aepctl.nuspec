@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>aepctl</id>
+    <version>0.1.1</version>
+    <packageSourceUrl>https://github.com/fuxs/chocolatey-packages</packageSourceUrl>
+    <owners>fuxs</owners>
+    <title>aepctl</title>
+    <authors>Michael Bungenstock</authors>
+    <projectUrl>https://www.bungenstock.de/aepctl/</projectUrl>
+    <licenseUrl>https://github.com/fuxs/aepctl/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/fuxs/aepctl</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/fuxs/aepctl/issues</bugTrackerUrl>
+    <tags>aepctl aep</tags>
+    <summary>The command line tool for AEP</summary>
+    <description>aepctl is a command line tool for the Adobe Experience Platform implementing a part of the REST API.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>

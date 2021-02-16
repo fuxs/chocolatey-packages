@@ -1,0 +1,8 @@
+VERIFICATION
+I am the author of aepctl.
+
+  - Hash:  https://www.bungenstock.de/aepctl/releases/v0.1.1/aepctl-windows-386.tgz.sha256
+           https://www.bungenstock.de/aepctl/releases/v0.1.1/aepctl-windows-amd64.tgz.sha256
+  - From:  https://www.bungenstock.de/aepctl/releases/v0.1.1/aepctl-windows-386.tgz
+           https://www.bungenstock.de/aepctl/releases/v0.1.1/aepctl-windows-amd64.tgz
+  - On:    15-Feb-21
