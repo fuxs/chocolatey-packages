@@ -6,9 +6,9 @@ $packageArgs = @{
   unzipLocation = $toolsDir
   url           = 'https://www.bungenstock.de/aepctl/releases/v0.2.0/aepctl-windows-386.tgz'
   url64bit      = 'https://www.bungenstock.de/aepctl/releases/v0.2.0/aepctl-windows-amd64.tgz'
-  checksum      = '0c1c102cf661fd2b928e14de1c2e334bc6360014dc4004deb94db9e99e8b193f'
+  checksum      = 'd42193b092baf3bbafd3ba42e8b8beaf16c6f7ec08bb418b4da1da8020a1be2a'
   checksumType  = 'sha256'
-  checksum64    = '8f5330fba92dbbe6009b0ac42c11012e1ffd3ecc56a3d5fd140683415d6fb381'
+  checksum64    = '34b4a807c9b9e7b3ba6e057d0a09e3ea1e05a405e7d360e02f91afa8d9a2c12b'
   checksumType64= 'sha256'
 }
 Install-ChocolateyZipPackage @packageArgs
